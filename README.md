@@ -15,15 +15,15 @@ Install the plugin using the CLI, for instance with PhoneGap:
 
 	cordova plugin add https://github.com/Anuj-Raghuvanshi/cordova-clipboard-plugin
 
-The plugin creates the object `cordova.plugins.clipboard` with the methods `copy(text, onSuccess, onError)` and `paste(onSuccess, onError)`.
+The plugin creates the object `cordova.plugins.clipboard` with the methods `copy(text, plainText,onSuccess, onError)` and `paste(onSuccess, onError)`.
 
 Example:
 
 	var text = "Hello World!";
 
-	cordova.plugins.clipboard.copy(text);
+	cordova.plugins.dejirenClipboard.copy(text, plainText);
 
-	cordova.plugins.clipboard.paste(function (text) { alert(text); });
+	cordova.plugins.clipboard.paste(function (text, plainText) { alert(text); });
 
 ## Notes
 
