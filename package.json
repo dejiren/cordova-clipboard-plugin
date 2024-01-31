@@ -1,7 +1,7 @@
 {
     "name": "cordova-clipboard-plugin",
-    "version": "0.0.3",
-    "description": "Clipboard management plugin for Cordova/PhoneGap",
+    "version": "0.0.4",
+    "description": "Clipboard management plugin for Dejiren Cordova/PhoneGap",
     "cordova": {
         "id": "com.verso.cordova.clipboard",
         "platforms": [
@@ -21,10 +21,12 @@
         "cordova-ios",
         "cordova-android"
     ],
-    "engines": [{
-        "name": "cordova",
-        "version": ">=3.0.0"
-    }],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ],
     "author": "",
     "license": "MIT",
     "bugs": {
